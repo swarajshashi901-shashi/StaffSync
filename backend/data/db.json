@@ -1,0 +1,59 @@
+{
+  "employees": [
+    {
+      "id": "emp-1",
+      "name": "Rahul Sharma",
+      "role": "Software Engineer",
+      "department": "Engineering",
+      "email": "rahul@example.com",
+      "status": "Active",
+      "joined": "2025-02-10"
+    },
+    {
+      "id": "emp-2",
+      "name": "Priya Singh",
+      "role": "HR Executive",
+      "department": "Human Resources",
+      "email": "priya@example.com",
+      "status": "Active",
+      "joined": "2025-04-18"
+    },
+    {
+      "id": "emp-3",
+      "name": "Aman Verma",
+      "role": "UI/UX Designer",
+      "department": "Design",
+      "email": "aman@example.com",
+      "status": "On Leave",
+      "joined": "2025-06-02"
+    }
+  ],
+  "attendance": [],
+  "leaves": [
+    {
+      "id": "leave-1",
+      "employeeId": "emp-3",
+      "employeeName": "Aman Verma",
+      "type": "Personal Leave",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-06",
+      "reason": "Personal work",
+      "status": "Pending",
+      "createdAt": "2026-10-29T09:09:53.210Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "Welcome to StaffSync",
+      "message": "Use the dashboard to manage your team's daily HR tasks.",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "ann-2",
+      "title": "Keep attendance updated",
+      "message": "Remember to record attendance regularly.",
+      "date": "2026-10-29"
+    }
+  ]
+}
